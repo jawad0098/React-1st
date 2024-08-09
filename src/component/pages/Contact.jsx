@@ -9,7 +9,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className='main-home'>
       <h1>Contact Page</h1>
       <form onSubmit={handleSubmit}>
         <label>
