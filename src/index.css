@@ -1,0 +1,9 @@
+nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 10px;
+    background: darkgray;
+    border-radius: 20px;
+    transition: ce;
+    color: #fff;
+  }
