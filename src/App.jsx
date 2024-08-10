@@ -6,6 +6,7 @@ import Home from './component/pages/Home';
 import About from './component/pages/About';
 import ProductList from './component/pages/ProductList';
 import Contact from './component/pages/Contact';
+import Card from './component/Card';
 
 const App = () => {
     const message = "Welcome to the Home Page!";
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path="/" element={<Home message={message} />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/contact" element={<Card />} />
                     <Route path="/products" element={<ProductList products={products} />} />
                 </Routes>
             </main>

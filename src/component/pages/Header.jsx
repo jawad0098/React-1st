@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '/dfa.png'
 
 const Header = () => {
     return (
@@ -8,7 +9,8 @@ const Header = () => {
             <nav>
                 <div className="sec-main">
                     <div className="sec-logo">
-                        <h1>logo</h1>
+                        {/* <h1>logo</h1> */}
+                        <Link to="/"><img src={logo} alt="" /></Link>
                     </div>
                     <div className="list">
                     <ul>

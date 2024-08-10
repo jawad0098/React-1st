@@ -1,3 +1,5 @@
+import Card from '../Card';
+import cardimg from '../../../public/images/card-three.jpg'
 import React, { useState, useEffect } from 'react';
 
 const ProductList = ({ products }) => {
@@ -21,6 +23,12 @@ const ProductList = ({ products }) => {
                     ))}
                 </ul>
             </div>
+            <Card
+            src={cardimg}
+            title="Its Product heading"
+            detail="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, veritatis!"
+            navigateto="/about"
+            />
             </>
     );
 };

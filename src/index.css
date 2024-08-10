@@ -64,3 +64,19 @@ main{
 form {
   padding-top: 30px;
 }
+
+/* card compornet */
+.img_hodler {
+  width: 500px;
+  height: 320px;
+  margin: 40px 0;
+}
+.img_hodler img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card_map {
+  width: 500px;
+  margin: 0 auto;
+}
